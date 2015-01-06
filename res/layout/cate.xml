@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >  
+    <LinearLayout             
+        	android:layout_width="match_parent" 
+            android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Style2"
+            android:text="分类：" />
+
+        <EditText
+            android:inputType="textMultiLine"
+            android:id="@+id/cateedit"
+            android:hint="请输入分类"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout         	
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/diaryOk"
+            style="@style/Style2"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/diaryCancel"
+            style="@style/Style2"
+            android:text="取消"/>
+    </LinearLayout>
+    
+</LinearLayout>

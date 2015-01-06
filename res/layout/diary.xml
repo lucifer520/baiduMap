@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <LinearLayout style="@style/Style3" >
+
+        <TextView
+            style="@style/Style2"
+            android:text="序号：" 
+            />
+
+        <TextView
+            android:id="@+id/diaryId"
+            style="@style/Style3" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/Style3" >
+
+        <TextView
+            style="@style/Style2"
+            android:text="时间：" />
+
+        <TextView
+            android:id="@+id/diaryDay"
+            style="@style/Style3" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/Style3" >
+
+        <TextView
+            style="@style/Style2"
+            android:text="地点：" />
+
+        <TextView
+            android:id="@+id/diaryAddress"
+            style="@style/Style3" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/Style3" >
+
+        <TextView
+            style="@style/Style2"
+            android:text="作者：" />
+
+        <TextView
+            android:id="@+id/diaryAuthor"
+            style="@style/Style3" />
+    </LinearLayout>
+
+    <LinearLayout             
+        	android:layout_width="match_parent" 
+            android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Style2"
+            android:text="分类：" />
+
+        <Spinner
+            android:id="@+id/diarySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/province" />
+    </LinearLayout>
+    
+    <LinearLayout             
+        	android:layout_width="match_parent" 
+            android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Style2"
+            android:text="心情：" />
+
+        <EditText
+            android:inputType="textMultiLine"
+            android:id="@+id/diaryContent"
+            android:hint="请输入心情"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout         	
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/diaryOk"
+            style="@style/Style2"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/diaryCancel"
+            style="@style/Style2"
+            android:text="取消"/>
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.baidu.mapapi.MapView
+        android:id="@+id/mapViewId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+    <LinearLayout
+        style="@style/Style2"
+        android:layout_marginLeft="50dp" >
+
+        <ImageButton
+            android:id="@+id/up"
+            style="@style/Style2"
+            android:src="@drawable/up" />
+
+        <ImageButton
+            android:id="@+id/down"
+            style="@style/Style2"
+            android:src="@drawable/down" />
+
+        <ImageButton
+            android:id="@+id/left"
+            style="@style/Style2"
+            android:src="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/right"
+            style="@style/Style2"
+            android:src="@drawable/right" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Style2"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/big"
+            style="@style/Style2"
+            android:src="@drawable/big" />
+
+        <ImageButton
+            android:id="@+id/small"
+            style="@style/Style2"
+            android:src="@drawable/small" />
+
+        <ImageButton
+            android:id="@+id/sta"
+            style="@style/Style2"
+            android:src="@drawable/sta" />
+
+        <ImageButton
+            android:id="@+id/traffic"
+            style="@style/Style2"
+            android:src="@drawable/traffic" />
+    </LinearLayout> 
+    
+    <Button
+        android:id="@+id/query_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_marginLeft="180dp"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:text="查询" />
+
+    <Button
+        android:id="@+id/nearby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/query_input"
+        android:layout_alignBottom="@+id/query_input"
+        android:layout_toRightOf="@+id/query_input"
+        android:text="周边" />   
+
+</RelativeLayout>

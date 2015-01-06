@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >  
+    <LinearLayout             
+        	android:layout_width="match_parent" 
+            android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Style2"
+            android:text="分类：" />
+        <Spinner
+            android:id="@+id/diarycatespinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/city1" />
+
+       
+    </LinearLayout>
+
+    <LinearLayout         	
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/diarycateOk"
+            style="@style/Style2"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/diarycateCancel"
+            style="@style/Style2"
+            android:text="取消"/>
+    </LinearLayout>
+    
+</LinearLayout>

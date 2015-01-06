@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    <TextView
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="经度："
+	    />
+	    <EditText android:id="@+id/longitude_input"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:text="118.722988"
+	    />
+	    
+	    <TextView
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="纬度："
+	    />
+	    <EditText android:id="@+id/latitude_input"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:text="32.204748"
+	    />
+	
+	    <Button android:id="@+id/query_button"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="right"
+	    	android:text="地址查询"
+		/>
+		
+		<TextView android:id="@+id/address_text"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    />
+	    <!-- 
+	    	虽然定义了MapView,但是设置了android:visibility="gone"将其隐藏
+	    	因为本示例并不需要显示地图，但不定义又不行（baidu map api的要求） 
+	    -->
+	    <com.baidu.mapapi.MapView android:id="@+id/map_View"
+			android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:clickable="true"
+	    	android:visibility="gone"
+	    />
+	</LinearLayout>
+</ScrollView>

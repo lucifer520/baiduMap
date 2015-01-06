@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="main_layout"/>
+    <item type="id" name="titlebar_layout"/>
+    <item type="id" name="titlebar_title"/>
+    <item type="id" name="main_news_refresh"/>
+    <item type="id" name="classificationbar_layout"/>
+    <item type="id" name="classification_arrow_right"/>
+    <item type="id" name="classification_scrollview"/>
+    <item type="id" name="classification_layout"/>
+    
+    <item type="id" name="main_news"/>
+    <item type="id" name="classification_title"/>
+    <item type="id" name="main_news_layout"/>
+    <item type="id" name="main_news_title"/>
+    <item type="id" name="main_news_digest"/>
+    <item type="id" name="main_news_source"/>
+    <item type="id" name="main_news_ptime"/>
+    <item type="id" name="main_news_go_detail"/>
+    <item type="id" name="main_news_info_layout"/>
+    <item type="id" name="journalism_layout"/>
+    <item type="id" name="journalism_titlebar_layout"/>
+    <item type="id" name="journalism_titlebar_title"/>
+    <item type="id" name="news_reply_layout"/>
+    <item type="id" name="news_reply_edit_layout"/>
+    <item type="id" name="news_reply_edittext"/>
+    <item type="id" name="news_reply_post"/>
+    <item type="id" name="news_reply_img_layout"/>
+    <item type="id" name="news_reply_img_btn"/>
+    <item type="id" name="news_reply_img_view"></item>
+    <item type="id" name="news_comment_btn"/>
+   
+    <item type="id" name="news_body_layout"/>
+    <item type="id" name="news_body_scrollview"/>
+    <item type="id" name="news_body_title"/>
+    <item type="id" name="news_body_ptime_source"/>
+    <item type="id" name="news_body_separator_line"/>
+    <item type="id" name="news_body_details_loading"/>
+    <item type="id" name="news_body_details"/>
+    <item type="id" name="news_body_flipper"/>
+    <item type="id" name="comments_layout"/>
+    <item type="id" name="comments_titlebar_layout"/>
+    <item type="id" name="comments_titlebar_title"/>
+    <item type="id" name="comments_titlebar_count"/>
+    <item type="id" name="comments_back"/>
+    <item type="id" name="comments_titlebar_progressbar"/>
+    <item type="id" name="comments_list"/>
+    <item type="id" name="comments_reply_frame"/>
+    <item type="id" name="comment_from"/>
+    <item type="id" name="comment_time"/>
+    <item type="id" name="comment_content"/>
+    
+    
+    <item type="id" name="bottom_layout"/>
+    <item type="id" name="bottom_btn"/>
+    <item type="id" name="bottom_progress"/>
+    <item type="id" name="bottom_txt"/>
+    
+    
+   <item type="id" name="update_progress"/>
+   
+    <item type="id" name="pull_to_refresh_head"/>
+    <item type="id" name="arrow"/>
+    <item type="id" name="progress_bar"/>
+    <item type="id" name="description"/>
+   <item type="id" name="updated_at"/>
+  <item type="id" name="refreshable_view"/>
+  
+  
+  
+  
+    <item type="id" name="mySlidingMenuView"/>
+    <item type="id" name="login_and_register"/>
+    <item type="id" name="login_and_register_imageview"/>
+    <item type="id" name="login_and_register_textview"/>
+    <item type="id" name="leftMenu"/>
+    <item type="id" name="rightMenu"/>
+    <item type="id" name="closeRight"/>
+   <item type="id" name="body"/>
+    <item type="id" name="openLeft"/>
+    <item type="id" name="left_menu_news"/>
+    <item type="id" name="left_leave"/>
+      <item type="id" name="left_about"/>
+  
+    <item type="id" name="btn_title_back"/> 
+    
+    
+    
+    <item type="id" name="loginpage"/>
+    <item type="id" name="login_container"/>
+    <item type="id" name="login_logo_layout_v"/>
+    <item type="id" name="login_logoimg"/>
+    <item type="id" name="login_logo_layout_h"/>
+    <item type="id" name="qqId"/>
+    <item type="id" name="uin_close"/>
+    <item type="id" name="selectId"/>
+    <item type="id" name="passWord"/>
+    <item type="id" name="psw_close"/>
+    <item type="id" name="login_btn"/>
+    <item type="id" name="lineimg"/>
+    <item type="id" name="reg_and_forget_password_layout"/>
+    <item type="id" name="forget_password_tv"/>
+    <item type="id" name="reg_tv"/>
+    
+     <item type="id" name="register_layout"/>
+    <item type="id" name="register_body"/>
+    <item type="id" name="register_titlebar_layout"/>
+    <item type="id" name="back_register"/>
+    <item type="id" name="register_title"/>
+    <item type="id" name="name_text_layout"/>
+    <item type="id" name="register_name"/>
+    <item type="id" name="register_name_text"/>
+    <item type="id" name="password_text_layout"/>
+    <item type="id" name="register_password"/>
+    <item type="id" name="register_password_text"/>
+    <item type="id" name="sex_text_layout"/>
+    <item type="id" name="register_sex"/>
+    <item type="id" name="register_sex_text"/>
+    <item type="id" name="phone_text_layout"/>
+    <item type="id" name="register_phone"/>
+    <item type="id" name="register_phone_text"/>
+    <item type="id" name="register_btn"/>
+    
+    <item type="id" name="main_news_image_layout"/>
+    <item type="id" name="main_news_image"/>
+ 
+ 
+  <!-- 焦点图 -->
+    <item type="id" name="fl_main"/>
+    <item type="id" name="ViewFlipper01"/>
+    <item type="id" name="ll_point"/>
+    <item type="id" name="textview"/>
+     <item type="id" name="idtextview"/>
+    
+    
+ 
+   
+   
+    
+</resources>
